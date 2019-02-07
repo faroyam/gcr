@@ -30,7 +30,6 @@ Usage of ./server:
   -t    enable tls ecryption
 ```
 
-To establish an encrypted connection, create a certificate and a key by executing [make_certs.sh](make_certs.sh) command and specifying your personal data
-
-
 ![Example](images/screenshot.png)
+
+To establish an encrypted connection, create a certificate and a key by executing [make_certs.sh](make_certs.sh) command and specifying your personal data
