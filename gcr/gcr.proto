@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package gcr;
+
+service ChatRoom {
+    rpc Broadcast (stream Message) returns (stream Message);
+    rpc RandName (NameRequets) returns (NameResponse);
+    rpc Info (InfoRequest) returns (stream InfoResponse);
+}
+
+message Message {
+    string author = 1;
+    string text = 2;
+}
+
+message NameRequets {}
+
+message NameResponse {
+    string name = 1;
+}
+
+message InfoRequest{}
+
+message InfoResponse{
+    int64 clientsCount = 1;
+}

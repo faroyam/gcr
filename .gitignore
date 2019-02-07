@@ -1,0 +1,6 @@
+# certs file
+*.pem
+*.key
+# binaries
+client
+server

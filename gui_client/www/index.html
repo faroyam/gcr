@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>GCR</title>
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+    <form class="form-horizontal">
+        <div class="usercounter text-dark">
+            online users: </div>
+        <div class="col-md-12">
+            <textarea class="chatfield form-control" style="overflow:auto;resize:none" rows="15" cols="50" readonly></textarea>
+        </div>
+
+        <div style="height:5px;font-size:1px;">&nbsp;</div>
+
+        <div class="col-md-12">
+            <textarea type="text" class="msg form-control" style="overflow:auto;resize:none" rows="2" cols="50"></textarea>
+        </div>
+
+        <div style="height:5px;font-size:1px;">&nbsp;</div>
+
+        <div class="col-md-12">
+            <div class="sendbtn btn btn-default btn-block">Send</div>
+        </div>
+
+        <div style="height:5px;font-size:1px;">&nbsp;</div>
+
+    </form>
+    <script src="index.js"></script>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, rgb(110, 180, 191), rgb(0, 107, 131));
+        }
+
+        div {
+            text-indent: 16px
+        }
+    </style>
+</body>
+
+<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+<script src="jquery-3.3/jquery-3.3.1.min.js"></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+</html>
